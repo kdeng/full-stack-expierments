@@ -1,0 +1,9 @@
+
+### Server Settings
+server:
+  port: 9090
+
+jsonplaceholder:
+  baseUrl: https://jsonplaceholder.typicode.com
+  postApi: /posts
+  commentApi: /posts/%d/comments

@@ -1,0 +1,30 @@
+<div class="comments-container">
+  <div class="comments-loading" *ngIf="!post.commentsLoaded">
+    Loading comments ...
+  </div>
+  <div class="comments-list" *ngIf="post.commentsLoaded">
+    <h4 class="title">Comments:</h4>
+    <mat-accordion>
+      <mat-expansion-panel
+        *ngFor="let comment of post.comments"
+        (opened)="panelOpenState = true"
+        (closed)="panelOpenState = false">
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+            #{{ comment.id }}
+          </mat-panel-title>
+          <mat-panel-description>
+            {{ comment.name }}
+          </mat-panel-description>
+        </mat-expansion-panel-header>
+
+        <p>{{ comment.body }}</p>
+
+        <mat-action-row>
+          By<span class="comment-author">{{ comment.email }}</span>
+        </mat-action-row>
+
+      </mat-expansion-panel>
+    </mat-accordion>
+  </div>
+</div>

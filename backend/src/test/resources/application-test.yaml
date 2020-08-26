@@ -1,0 +1,7 @@
+server:
+  port: 9191
+
+jsonplaceholder:
+  baseUrl: http://localhost:9191
+  postApi: /posts
+  commentApi: /posts/%d/comments

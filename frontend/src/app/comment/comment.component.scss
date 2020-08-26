@@ -1,0 +1,22 @@
+.mat-expansion-panel-header-title {
+  font-weight: bold;
+  flex-grow: 0;
+}
+
+.comments-container {
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: rgba(0,0,0,.12);
+  padding: 16px 8px 16px 24px;
+
+
+  h4.title {
+    font-weight: 600;
+    font-size: 1.1em;;
+  }
+
+}
+.comment-author {
+  text-decoration: underline;
+  padding-left: 1em;
+}

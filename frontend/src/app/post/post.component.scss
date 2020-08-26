@@ -1,0 +1,15 @@
+.container {
+  margin: 10px auto;
+  width: 80%;
+
+  .row {
+    width: 100%;
+  }
+
+  .mat-expansion-panel-header-title {
+    font-weight: bold;
+    flex-grow: 0;
+  }
+
+
+}
