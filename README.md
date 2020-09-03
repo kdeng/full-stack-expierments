@@ -4,70 +4,41 @@
 
 ## Overview
 
-This is a sample solution for Westpac.
+This repository is my full stack experements to collect all kind of implementations
+for both frontend and backend.
 
 ## Requirements
 
 * Create a RESTful API to handle communication between the data source (https://jsonplaceholder.typicode.com/) and the front-end.
 * Create a front-end to display the posts.
-* Provide instructions to run the application you submit.
-
-## Prerequisites
-
-* latest Oracle jdk 11.x (>= 11.0.6)
-* latest maven (>= 3.6.3)
-* latest node (>= v13.8.0)
-* latest npm (>= 6.13.7)
-* latest google chrome
 
 ## Implementation technologies
 
-* angular 9
-* java 11
-* spring-boot 2.3.3
-* spring webflux + netty
+### Frontend
 
-## How to launch applications locally
+| Artifact Name      |  Framework  |  Language    |  Status  |
+|--------------------|:-----------:|:------------:|:--------:|
+| frontend-angular   | Angular     | Typescript   | DONE     |
+| frontend-vuejs     | Vue.js      | Typescript   | TODO     |
+| frontend-react     | Next.js     | Typescript   | TODO     |
+| frontend-flutter   | Flutter     | Dart         | TODO     |
 
-Before launch the application on your local, please make sure both port 4200 and 9090 are available.
+### Backend
 
-Also, following scripts only can be executed in Bash terminal.
+| Artifact Name               | Framework                        |  Language     |  Status  |
+|-----------------------------|----------------------------------|:-------------:|:--------:|
+| backend-spring-webflux      | Spring Boot, Spring Web Flux     |  Java         |  DONE    |
+| backend-spring-webmvc       | Spring Boot, Spring Web MVC      |  Java         |  TODO    |
+| backend-jersey-netty        | Jersey, Netty                    |  Java         |  TODO    |
+| backend-micronaut           | Micronaut                        |  Java         |  TODO    |
+| backend-javalin             | Javalin                          |  Java         |  TODO    |
+| backend-vertx               | Vert.x                           |  Java         |  TODO    |
+| backend-nestjs              | Nest.js                          |  Typescript   |  TODO    |
+| backend-flask               | Flask                            |  Python       |  TODO    |
+| backend-django              | Django                           |  Python       |  TODO    |
+| backend-gin                 | Gin                              |  Golang       |  TODO    |
+| backend-revel               | Revel                            |  Golang       |  TODO    |
+| backend-sinatra             | Sinatra                          |  Rudy         |  TODO    |
+| backend-rails               | Rails                            |  Rudy         |  TODO    |
+| backend-rocket              | Rocket                           |  Rust         |  TODO    |
 
-### Prepare
-
-Open a Bash terminal, and run following command.
-
-```bash
-
-./make init
-
-```
-
-This step will install all Node dependencies for frontend application
-
-
-### Launch backend application
-
-In the same Bash terminal, run following command.
-
-```bash
-
-./make run api
-
-```
-
-Then, the backend application will be launched and listens on port 9090.
-
-### Launch frontend application
-
-Open another Bash terminal, and run following command.
-
-```bash
-
-./make run web
-
-```
-
-Then, the frontend application will be launched and listens on port 4200.
-
-**Now, you can access application via http://localhost:4200.**

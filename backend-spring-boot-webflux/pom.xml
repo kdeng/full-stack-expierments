@@ -5,13 +5,12 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>io.osnz.demos</groupId>
-  <artifactId>backend</artifactId>
+  <artifactId>backend-spring-boot-webflux</artifactId>
   <version>1.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>backend</name>
-  <description>backend</description>
-  <url>https://github.com/kdeng/backend</url>
+  <name>backend-spring-boot-webflux</name>
+  <description>backend-spring-boot-webflux</description>
 
   <properties>
     <!-- dependency version -->

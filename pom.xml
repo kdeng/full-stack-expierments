@@ -5,16 +5,16 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>io.osnz.demos</groupId>
-  <artifactId>post-solution</artifactId>
+  <artifactId>full-stack-experiments</artifactId>
   <version>1.1-SNAPSHOT</version>
   <packaging>pom</packaging>
 
-  <name>post-solution</name>
-  <description>post-solution</description>
+  <name>full-stack-experiments</name>
+  <description>full-stack-experiments</description>
 
   <modules>
-    <module>frontend</module>
-    <module>backend</module>
+    <module>frontend-angular</module>
+    <module>backend-spring-boot-webflux</module>
   </modules>
 
 </project>

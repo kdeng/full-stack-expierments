@@ -4,12 +4,12 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>io.osnz.demos</groupId>
-  <artifactId>frontend</artifactId>
+  <artifactId>frontend-angular</artifactId>
   <version>1.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>frontend</name>
-  <description>frontend</description>
+  <name>frontend-angular</name>
+  <description>frontend-angular</description>
 
   <build>
     <plugins>
